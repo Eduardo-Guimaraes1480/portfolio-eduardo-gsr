@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">PORTFÓLIO<span class="dot">.</span></a>
+            <nav class="nav">
+                <a href="#sobre">Sobre</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato" class="btn-nav">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <h4>Olá, eu sou</h4>
+            <h1>[Seu Nome Aqui]</h1>
+            <p>Desenvolvedor | Criativo | Tech Lover</p>
+            <div class="hero-btns">
+                <a href="#projetos" class="btn btn-primary">Meus Projetos</a>
+                <a href="#contato" class="btn btn-outline">Entrar em contato</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="section">
+        <div class="container split-layout">
+            <div class="image-box">
+                <div class="placeholder-img">Sua Foto (600x600)</div>
+            </div>
+            <div class="text-box">
+                <h2>Sobre Mim</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <br>
+                <h3>Formação Acadêmica</h3>
+                <ul class="education-list">
+                    <li>
+                        <strong>Curso Superior em Tecnologia</strong> - Universidade XYZ (2020 - 2023)
+                    </li>
+                    <li>
+                        <strong>Certificação Fullstack</strong> - Escola de Code (2024)
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades" class="section bg-darker">
+        <div class="container">
+            <h2>Ferramentas que Domino</h2>
+            <p class="section-subtitle">Minha stack tecnológica e habilidades principais.</p>
+            
+            <div class="grid-cards">
+                <div class="card">
+                    <div class="icon-placeholder"><i class="fab fa-html5"></i></div>
+                    <h3>HTML & CSS</h3>
+                    <p>Criação de layouts semânticos e responsivos.</p>
+                </div>
+                <div class="card">
+                    <div class="icon-placeholder"><i class="fab fa-js"></i></div>
+                    <h3>JavaScript</h3>
+                    <p>Manipulação de DOM e lógica de programação.</p>
+                </div>
+                <div class="card">
+                    <div class="icon-placeholder"><i class="fab fa-git-alt"></i></div>
+                    <h3>Git & GitHub</h3>
+                    <p>Versionamento de código e trabalho em equipe.</p>
+                </div>
+                <div class="card">
+                    <div class="icon-placeholder"><i class="fas fa-tools"></i></div>
+                    <h3>Outras Skills</h3>
+                    <p>Soft skills, comunicação e agilidade.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="section">
+        <div class="container">
+            <h2>Meus Projetos</h2>
+            <div class="grid-projects">
+                
+                <div class="project-card">
+                    <div class="project-img">Imagem do Projeto</div>
+                    <div class="project-info">
+                        <h3>Nome do Projeto</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Breve descrição do que o projeto faz.</p>
+                        <div class="tags">
+                            <span>HTML</span><span>CSS</span>
+                        </div>
+                        <a href="#" class="link-arrow">Ver no GitHub <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">Imagem do Projeto</div>
+                    <div class="project-info">
+                        <h3>Outros Trabalhos</h3>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <div class="tags">
+                            <span>Design</span><span>Flat</span>
+                        </div>
+                        <a href="#" class="link-arrow">Ver Detalhes <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">Imagem do Projeto</div>
+                    <div class="project-info">
+                        <h3>App Concept</h3>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <div class="tags">
+                            <span>Mobile</span><span>UX</span>
+                        </div>
+                        <a href="#" class="link-arrow">Acessar <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer id="contato" class="footer">
+        <div class="container footer-content">
+            <h2>Vamos conversar?</h2>
+            <p>Estou disponível para novos projetos e colaborações.</p>
+            
+            <div class="social-links">
+                <a href="LINK_DO_WHATSAPP" target="_blank" class="social-btn whatsapp">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+                <a href="LINK_DO_LINKEDIN" target="_blank" class="social-btn linkedin">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="LINK_DO_GITHUB" target="_blank" class="social-btn github">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2024 Desenvolvido por [Seu Nome].</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
